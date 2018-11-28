@@ -1,6 +1,6 @@
 <div class="container">
     <h1 class= "text-center"><%= @restaurant.name %></h1>
-    <h2>Address: <%= @restaurant.address %></h2>
+    <h2>Address: <%= @restaurant.address.capitalize %></h2>
     <p>Type of food: <strong><%= @restaurant.category.capitalize %></strong> </p>
     <p>Phone number: <strong><%= @restaurant.phone_number %></strong> </p>
     <ul>
